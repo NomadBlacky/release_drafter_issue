@@ -16,6 +16,9 @@ autolabeler:
       - '/feature\/.+/'
     body:
       - '/JIRA-[0-9]{1,4}/'
+  - label: 'my_label'
+    title:
+      - '/foo/i'
 categories:
   - title: '🚀 Features'
     labels:
@@ -28,6 +31,8 @@ categories:
       - 'bug'
   - title: '🧰 Maintenance'
     label: 'chore'
+  - title: 'My Label'
+    label: 'my_label'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 version-resolver:
