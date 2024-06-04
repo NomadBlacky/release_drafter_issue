@@ -16,7 +16,7 @@ autolabeler:
       - '/feature\/.+/'
     body:
       - '/JIRA-[0-9]{1,4}/'
-  - label: 'my-label'
+  - label: 'my_label'
     title:
       - '/foo/i'
 categories:
